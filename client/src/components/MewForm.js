@@ -15,7 +15,7 @@ const MewForm = ({ name, setName, mew, setMew, mewList, setMewList }) => {
     const mewObj = {
       name: name,
       mew: mew,
-      createdOn: Date.now(),
+      //      createdOn: Date.now(),
     };
 
     const response = await fetch("http://localhost:8080/mews", {

@@ -3,7 +3,6 @@ const helmet = require("helmet");
 const cors = require("cors");
 const morgan = require("morgan");
 const routes = require("./routes");
-//const db = require("./database");
 const middlewares = require("./middlewares");
 
 require("dotenv").config();
